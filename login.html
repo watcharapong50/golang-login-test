@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <br>
+  <div class="container">
+        <div class="col-md-4">
+          <h1>Login Page</h1>
+              <form method="POST" action="/login">
+                <div class="input-group margin-bottom-sm">
+                <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                <input class="form-control" name="username" type="text" placeholder="Email address">
+              </div><br>
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+                <input class="form-control" name="password" type="password" placeholder="Password">
+              </div><br>
+                <input type="submit" value="login" class="btn btn-success">
+              </form>
+        </div>
+  </div>
+</body>
+</html>
